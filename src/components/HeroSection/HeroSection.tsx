@@ -8,7 +8,7 @@ function HeroSection() {
     return (
         <div className="flex flex-col justify-center items-center mt-40" >
             <h1 className="text-4xl md:text-6xl lg:text-8xl  font-bold text-center mt-10 " >Take a Quiz</h1>
-            <h3 className="dark:text-gray-600 text-gray-500 text-xl text-secondary mb-2 " >HTML | JS | ReactJs | NextJs and many more....</h3>
+            <h3 className=" text-gray-700 text-xl text-secondary mb-2 " >HTML | JS | ReactJs | NextJs and many more....</h3>
             <div className="button-div ">
 
                 <Link to = "/start">
