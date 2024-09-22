@@ -1,13 +1,27 @@
-import { Button } from "../ui/button"
+import OptionButton from "./OptionButton"
 
 function Options() {
     return (
-        <div>
-            <Button 
-                className="w-10 h-5 text-center"
-                variant={'default'}
+        <div className="ml-10 mt-10">
+            <OptionButton
+                optionNumber="1"
+                optionText="Hyper text markup language"
+            />
 
-            ></Button>
+            <OptionButton
+                optionNumber="2"
+                optionText="Hyper text markup language"
+            />
+
+            <OptionButton
+                optionNumber="3"
+                optionText="Hyper text markup language"
+            />
+
+            <OptionButton
+                optionNumber="4"
+                optionText="Hyper text markup language"
+            />
         </div>
     )
 }
