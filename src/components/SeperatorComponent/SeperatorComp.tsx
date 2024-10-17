@@ -1,16 +1,16 @@
-import { Separator } from "@/components/ui/separator"
+import { Separator } from '@/components/ui/separator';
 
 interface SeperatorCompProps {
-    className? : string ;
+	className?: string;
 }
 
-function SeperatorComp(props  : SeperatorCompProps) {
-    const {className} = props
-    return (
-        <div className={className}>
-        <Separator />
-        </div>
-    )
+function SeperatorComp(props: SeperatorCompProps) {
+	const { className } = props;
+	return (
+		<div className={className}>
+			<Separator />
+		</div>
+	);
 }
 
-export default SeperatorComp
+export default SeperatorComp;

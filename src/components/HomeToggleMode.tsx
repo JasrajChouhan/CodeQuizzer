@@ -1,11 +1,11 @@
-import { ModeToggle } from "./mode-toggle"
+import { ModeToggle } from './mode-toggle';
 
 function HomeToggleMode() {
-    return (
-        <div className="flex flex-end justify-end mr-5 mt-5" >
-            <ModeToggle/>
-        </div>
-    )
+	return (
+		<div className="flex flex-end justify-end mr-5 mt-5">
+			<ModeToggle />
+		</div>
+	);
 }
 
-export default HomeToggleMode
+export default HomeToggleMode;
